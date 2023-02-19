@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+
+.new-game-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 16px;
+    background-color: #ffffff;
+    width: 90vw;
+    max-width: 15em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    padding: 3em;
+    border-radius: 0.6em;
+    box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.25);
+}
+
+.hide {
+    display: none;
+}
+
+#new-game-button {
+    width: 12vmin;
+    height: 5vmin;
+    border-radius: 0.5em;   
+}
+
+#new-game-button:active {
+    background-color: #999;
+    box-shadow: inset 0 0 5px #333;
+    transform: translateY(3px);
+}
