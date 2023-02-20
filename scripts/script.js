@@ -1,24 +1,24 @@
 const newGamePopup = document.getElementById("new-game-container");
 const resultText = document.getElementById("result-text");
 
-var cellSize = 25;
-var rows = 20;
-var cells = 20;
-var board;
-var ctx;
+let cellSize = 25;
+let rows = 20;
+let cells = 20;
+let board;
+let ctx;
 
-var snakeX = cellSize * 5;
-var snakeY = cellSize * 5;
+let snakeX = cellSize * 5;
+let snakeY = cellSize * 5;
 
-var speedX = 0;
-var speedY = 0;
+let speedX = 0;
+let speedY = 0;
 
-var foodX;
-var foodY;
+let foodX;
+let foodY;
 
-var snakeBody = [];
+let snakeBody = [];
 
-var gameOver = false;
+let gameOver = false;
 
 function startNewGame() {
     resultText.innerHTML = "";
